@@ -3635,8 +3635,8 @@ textarea.form-control-lg {
 .nav-link:hover, .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
 }
-.nav-link.disabled {
-  color: var(--bs-nav-link-disabled-color);
+..disabled {
+  color: var(--bs--disabled-color);
   pointer-events: none;
   cursor: default;
 }
@@ -3651,7 +3651,7 @@ textarea.form-control-lg {
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
-.nav-tabs .nav-link {
+.nav-tabs . {
   margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
   background: none;
   border: var(--bs-nav-tabs-border-width) solid transparent;
@@ -11743,4 +11743,8 @@ html {
 
 .social-icon:hover {
     transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.nav-link {
+    color: #55ccae !important; /* Reemplaza #tuColorDeseado con el color que prefieras */
 }
