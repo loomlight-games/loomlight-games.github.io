@@ -11735,7 +11735,7 @@ html {
 
 .social-icon {
     font-size: 40px; /* Tamaño del icono */
-    background: linear-gradient(135deg, #6f42c1, #e21e80); /* Gradiente de morado a rosa */
+    background: linear-gradient(135deg, #9fce4b, #4ba6ce); /* Gradiente de morado a rosa */
     -webkit-background-clip: text; /* Clip para el fondo del texto */
     -webkit-text-fill-color: transparent; /* Relleno de color transparente para ver el fondo */
     transition: transform 0.3s; /* Transición para el efecto hover */
