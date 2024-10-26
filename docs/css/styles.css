@@ -11768,11 +11768,13 @@ html {
 }
 
 .btn-outline-dark {
-    background-color: #c1dd5f; /* Cambia esto por el color deseado para el borde de Proyectos */
+    border-color: #ffffff; /* Cambia esto por el color deseado para el borde de Proyectos */
+    background-color: #d3e694; /* Cambia esto por el color deseado para el fondo de Proyectos */
     color: #fff; /* Color del texto de Proyectos */
 }
 
 .btn-outline-dark:hover {
+    border-color: #ffffff; /* Cambia esto por el color deseado para el borde de Proyectos */
     background-color: #a6be52; /* Color de fondo al pasar el ratón sobre Proyectos */
     color: #fff; /* Color del texto en hover */
 }
