@@ -11756,3 +11756,9 @@ html {
 .loomlight-subtitle {
     color: #c1dd5f; /* Reemplaza con el color que prefieras */
 }
+
+.equipo-btn {
+    background-color: #48ab92; /* Cambia a tu tono de azul oscuro */
+    color: #fff; /* Asegúrate de que el texto sea visible */
+}
+
