@@ -11762,3 +11762,17 @@ html {
     color: #fff; /* Asegúrate de que el texto sea visible */
 }
 
+.equipo-btn:hover {
+    background-color: #3b8774; /* Cambia esto por el color deseado al pasar el ratón sobre Equipo */
+    color: #fff; /* Color del texto en hover */
+}
+
+.btn-outline-dark {
+    background-color: #c1dd5f; /* Cambia esto por el color deseado para el borde de Proyectos */
+    color: #fff; /* Color del texto de Proyectos */
+}
+
+.btn-outline-dark:hover {
+    background-color: #a6be52; /* Color de fondo al pasar el ratón sobre Proyectos */
+    color: #fff; /* Color del texto en hover */
+}
