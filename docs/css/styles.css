@@ -11845,17 +11845,25 @@ html {
   -webkit-text-fill-color: transparent;
 
 .wickedsocial-icon {
-    font-size: 40px !important;
-    background: linear-gradient(135deg, #894bce, #c14bce) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    transition: transform 0.3s !important;
+    font-size: 40px !important; /* Tamaño del icono */
+    background: linear-gradient(135deg, #894bce, #c14bce) !important; /* Gradiente de morado a rosa */
+    -webkit-background-clip: text !important; /* Clip para el fondo del texto */
+    -webkit-text-fill-color: transparent !important; /* Relleno de color transparente para ver el fondo */
+    transition: transform 0.3s, filter 0.3s !important; /* Transición para el efecto hover */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra para destacar los íconos */
 }
 
 .wickedsocial-icon:hover {
-    transform: scale(1.1) !important;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) !important;
+    transform: scale(1.1) !important; /* Aumenta el tamaño al pasar el mouse */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Más sombra en hover */
 }
+
+/* Anulación de color para evitar el azul predeterminado en enlaces */
+a .wickedsocial-icon {
+    color: transparent !important;
+    text-decoration: none !important;
+}
+
 
 
 
