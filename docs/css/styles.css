@@ -11801,4 +11801,38 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para resaltar el hover */
 }
 
+/* ---- PAGINA WEB DE WICKED WINDS ---- */
+/* Personalización del degradado en títulos */
+.title-gradient {
+    background: linear-gradient(90deg, #8A2BE2, #9400D3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Personalización de los bordes de las imágenes */
+.rounded-img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Tarjeta de Ashen */
+.card-ashen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card-ashen img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Tarjeta secundaria */
+.card-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
 
