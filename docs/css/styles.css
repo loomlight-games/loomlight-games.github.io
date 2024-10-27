@@ -11844,16 +11844,17 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-.wickedsocial-icon {
-    font-size: 40px; /* Tamaño del icono */
-    background: linear-gradient(135deg, #894bce, #c14bce); /* Gradiente de morado a rosa */
-    -webkit-background-clip: text; /* Clip para el fondo del texto */
-    -webkit-text-fill-color: transparent; /* Relleno de color transparente para ver el fondo */
-    transition: transform 0.3s; /* Transición para el efecto hover */
+a .wickedsocial-icon {
+    font-size: 40px;
+    background: linear-gradient(135deg, #894bce, #c14bce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s;
 }
 
-.wickedsocial-icon:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+a .wickedsocial-icon:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ejemplo de sombra */
 }
 
 
