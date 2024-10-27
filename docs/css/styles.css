@@ -11897,6 +11897,52 @@ html {
     margin-right: -50vw; /* Para desplazar el fondo hacia la derecha */
 }
 
+/* ---- PAGINA WEB DE WICKED TRIVIAL ---- */
 
+.trivia-title {
+    color: #2f5d93 !important; /* Reemplaza con el color que prefieras */
+}
 
+.trivia-gradient {
+  background: -webkit-linear-gradient(315deg, #5d83c6 0%, #6abbcf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.triviaintro-gradient {
+    background: linear-gradient(135deg, #7182b3 0%, #7eb5d3 100%);
+    padding: 40px; /* Ajusta el padding según sea necesario */
+    color: white; /* Cambia el color del texto si es necesario */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    position: relative; /* Para que el fondo no se limite al contenedor */
+    left: 50%; /* Para centrar el fondo */
+    right: 50%;
+    margin-left: -50vw; /* Para desplazar el fondo hacia la izquierda */
+    margin-right: -50vw; /* Para desplazar el fondo hacia la derecha */
+}
+
+.tvolver-btn {
+    background-color: #4888ab; /* Cambia a tu tono de azul oscuro */
+    color: #fff; /* Asegúrate de que el texto sea visible */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra para destacar los íconos */
+}
+
+.tvolver-btn:hover {
+    background-color: #3c6f8b; /* Cambia esto por el color deseado al pasar el ratón sobre Equipo */
+    color: #fff; /* Color del texto en hover */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Más sombra en hover */
+}
+
+.triviasocial-icon {
+    font-size: 40px; /* Tamaño del icono */
+    background: linear-gradient(135deg, #4b65ce, #4b9cce); /* Gradiente de morado a rosa */
+    -webkit-background-clip: text; /* Clip para el fondo del texto */
+    -webkit-text-fill-color: transparent; /* Relleno de color transparente para ver el fondo */
+    transition: transform 0.3s, filter 0.3s; /* Transición para el efecto hover */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra para destacar los íconos */
+}
+
+.triviasocial-icon:hover {
+    transform: scale(1.3); /* Aumenta el tamaño al pasar el mouse */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Más sombra en hover */
+}
