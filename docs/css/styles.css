@@ -11874,7 +11874,19 @@ html {
 }
 
 .intro-gradient {
-    background: linear-gradient(135deg, #905dc6 0%, #be6acf 100%);
+    background: linear-gradient(135deg, #a671b3 0%, #ca7ed3 100%);
+    padding: 40px; /* Ajusta el padding según sea necesario */
+    color: white; /* Cambia el color del texto si es necesario */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    position: relative; /* Para que el fondo no se limite al contenedor */
+    left: 50%; /* Para centrar el fondo */
+    right: 50%;
+    margin-left: -50vw; /* Para desplazar el fondo hacia la izquierda */
+    margin-right: -50vw; /* Para desplazar el fondo hacia la derecha */
+}
+
+.outro-gradient {
+    background: linear-gradient(135deg, #efefef 0%, #e8e8e8 100%);
     padding: 40px; /* Ajusta el padding según sea necesario */
     color: white; /* Cambia el color del texto si es necesario */
     width: 100vw; /* Ocupa todo el ancho de la ventana */
