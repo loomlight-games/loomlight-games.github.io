@@ -11875,8 +11875,7 @@ html {
 
 .intro-gradient {
     background: linear-gradient(135deg, #a671b3 0%, #ca7ed3 100%);
-    padding: 40px; /* Ajusta el padding según sea necesario */
-    margin: 0 8px; /* Espacio externo a los lados */
+    padding: 30px; /* Ajusta el padding según sea necesario */
     max-width: 800px; /* Máximo ancho del contenedor */
     color: white; /* Cambia el color del texto si es necesario */
     width: 100vw; /* Ocupa todo el ancho de la ventana */
