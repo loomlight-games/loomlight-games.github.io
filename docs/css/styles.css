@@ -11843,5 +11843,17 @@ html {
   background: -webkit-linear-gradient(315deg, #905dc6 0%, #be6acf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+.wickedsocial-icon {
+    font-size: 40px; /* Tamaño del icono */
+    background: linear-gradient(135deg, #894bce, #c14bce); /* Gradiente de morado a rosa */
+    -webkit-background-clip: text; /* Clip para el fondo del texto */
+    -webkit-text-fill-color: transparent; /* Relleno de color transparente para ver el fondo */
+    transition: transform 0.3s; /* Transición para el efecto hover */
+}
+
+.wickedsocial-icon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
 }
 
