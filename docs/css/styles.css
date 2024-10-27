@@ -11785,14 +11785,20 @@ html {
     margin-right: 0;
 }
 
-/* Hace que el enlace ocupe todo el espacio de la tarjeta */
+/* Mantiene el color del texto y evita que se vuelva azul al hacer hover */
 .project-card-link {
     display: block;
     color: inherit;
     text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efecto de transición para animar */
 }
 
+/* Evita que el texto cambie de color en hover */
 .project-card-link:hover {
+    color: inherit; /* Mantiene el color original del texto */
     text-decoration: none;
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para resaltar el hover */
 }
+
 
