@@ -11840,7 +11840,7 @@ html {
 }
 
 .wicked-gradient {
-  background: -webkit-linear-gradient(315deg, #905dc6 0%, #c18af8 100%);
+  background: -webkit-linear-gradient(315deg, #905dc6 0%, #be6acf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
