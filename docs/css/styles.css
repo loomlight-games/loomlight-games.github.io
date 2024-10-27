@@ -11861,6 +11861,17 @@ html {
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Más sombra en hover */
 }
 
+.wvolver-btn {
+    background-color: #9848ab; /* Cambia a tu tono de azul oscuro */
+    color: #fff; /* Asegúrate de que el texto sea visible */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); /* Sombra para destacar los íconos */
+}
+
+.wvolver-btn:hover {
+    background-color: #6d3b87; /* Cambia esto por el color deseado al pasar el ratón sobre Equipo */
+    color: #fff; /* Color del texto en hover */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Más sombra en hover */
+}
 
 
 
