@@ -11838,7 +11838,7 @@ html {
 }
 
 .wicked-title {
-    color: #5e2f93; /* Reemplaza con el color que prefieras */
+    color: #5e2f93 !important; /* Reemplaza con el color que prefieras */
 }
 
 .wicked-gradient {
