@@ -11843,6 +11843,7 @@ html {
   background: -webkit-linear-gradient(315deg, #905dc6 0%, #be6acf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
 
 .wickedsocial-icon {
     font-size: 40px !important; /* Tamaño del icono */
