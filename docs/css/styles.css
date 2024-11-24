@@ -11897,6 +11897,23 @@ html {
     margin-right: -50vw; /* Para desplazar el fondo hacia la derecha */
 }
 
+.stardust-gradient {
+  background: -webkit-linear-gradient(315deg, #5dc67f 0%, #6acf79 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.frostpeak-gradient {
+  background: -webkit-linear-gradient(315deg, #5db8c6 0%, #6acfcb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sandy-gradient {
+  background: -webkit-linear-gradient(315deg, #c6bc5d 0%, #cdcf6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* ---- PAGINA WEB DE WICKED TRIVIAL ---- */
 
 .trivia-title {
