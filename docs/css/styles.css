@@ -11898,19 +11898,19 @@ html {
 }
 
 .stardust-gradient {
-  background: -webkit-linear-gradient(315deg, #5dc67f 0%, #6acf79 100%);
+  background: -webkit-linear-gradient(315deg, #4fa96c 0%, #6acf79 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .frostpeak-gradient {
-  background: -webkit-linear-gradient(315deg, #5db8c6 0%, #6acfcb 100%);
+  background: -webkit-linear-gradient(315deg, #53a5b1 0%, #6acfcb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .sandy-gradient {
-  background: -webkit-linear-gradient(315deg, #c6bc5d 0%, #cdcf6a 100%);
+  background: -webkit-linear-gradient(315deg, #b0a854 0%, #cdcf6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
